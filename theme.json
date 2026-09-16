@@ -1,1 +1,28 @@
-{}
+{
+  "id": "zen-ctrl-tab-panel",
+  "name": "Ctrl Tab Panel",
+  "description": "Preview tabs while holding Ctrl+Tab, then release Ctrl to switch or press Esc to cancel.",
+  "author": "12th-devs",
+  "version": "0.1.1",
+  "createdAt": "2026-04-28",
+  "updatedAt": "2026-09-16",
+  "homepage": "https://github.com/12th-devs/Ctrl-Tab-Panel",
+  "readme": "https://github.com/12th-devs/Ctrl-Tab-Panel",
+  "fork": ["zen"],
+  "tags": ["sine", "Ctrl Tab", "Tab Switcher", "JavaScript"],
+  "style": {
+    "chrome": "chrome.css",
+    "content": ""
+  },
+  "scripts": {
+    "zen-ctrl-tab-panel.uc.js": {
+      "name": "Ctrl Tab Panel",
+      "description": "Installs the Ctrl+Tab preview panel at runtime.",
+      "include": ["chrome://browser/content/browser.xhtml"],
+      "loadOrder": 10
+    }
+  },
+  "preferences": "preferences.json",
+  "no-updates": false,
+  "enabled": true
+}
