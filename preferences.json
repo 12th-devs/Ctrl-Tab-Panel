@@ -23,5 +23,12 @@
     "label": "Order tabs by recent use",
     "defaultValue": false,
     "margin": "12px 0"
+  },
+  {
+    "type": "checkbox",
+    "property": "zen.tabs.ctrl-tab-panel.group-split-view",
+    "label": "Group split view tabs into a single card",
+    "defaultValue": true,
+    "margin": "12px 0"
   }
 ]

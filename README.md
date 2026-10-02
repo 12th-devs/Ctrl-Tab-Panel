@@ -8,6 +8,12 @@ Hold Ctrl and press Tab to open the panel, continue pressing Tab to move through
 
 - Show tab preview panel for Ctrl+Tab
 - Order tabs by recent use
+- Group split view tabs into a single card
+
+Tabs in the same Zen split view appear as one card with a mini preview per
+split tab, a stacked favicon row, and a `Split · N` badge. Releasing Ctrl on a
+split card re-selects that split view instead of a single tab. Turn grouping
+off to cycle split tabs individually; split tabs still show a `Split` badge.
 
 ## Sine Install
 
